@@ -1,0 +1,49 @@
+.contact{
+  width: 78%;
+  margin: auto;
+}
+.contact h1 {
+  text-align: center;
+  font-family: var(--font-title);
+}
+
+form {
+  width: 37%;
+  margin: auto;
+}
+.send {
+  padding: 10px 0;
+  text-align: right;
+}
+
+form label, span{
+  font-family: var(--font-paragraph);
+  color: #BA895D;
+  font-size: large;
+}
+
+.height{
+  height: 24px;
+}
+
+form input, textarea {
+  border: 3px solid var(--green-color);
+}
+/* 
+.prenom-nom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} */
+
+.champ {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.objet{
+  display: flex;
+  flex-direction: row;
+}

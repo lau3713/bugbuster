@@ -1,0 +1,27 @@
+.couleurs{
+  font-family: var(--font-subtitle);
+  font-size: x-large;
+  width: 78%;
+  margin: auto;
+  padding: 30px 0 100px 0;
+}
+.declinaisons-row{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.declinaisons-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+  
+}
+
+.img-declinaison{
+  width: 250px;
+  padding-bottom: 35px;
+}

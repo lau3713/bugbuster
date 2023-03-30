@@ -1,0 +1,41 @@
+.cont {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  
+  position: absolute;
+  top: 20%;
+  right: 37%; 
+  width: 25%; 
+  height: 60%;
+  transition: right 0.5s ease-in-out;
+
+}
+
+.text {
+  font-family: var(--font-paragraph);
+  font-weight: bold;
+  position: absolute;
+  top: 19%;
+  right: 14%; 
+  color: var(--brown-color);
+  width: 400px; 
+  height: 100%;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out 0.3s;  
+}
+
+.text h2{
+  font-size: xx-large;
+  padding-bottom:15px
+}
+
+.text li{
+  padding-top: 5px;
+  font-size:larger;
+}

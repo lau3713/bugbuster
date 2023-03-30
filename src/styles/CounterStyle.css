@@ -1,0 +1,8 @@
+.counter h2 {
+ border: 5px solid var(--brown-color);
+ background-color: var(--brown-light-color);
+ padding: 20px 25px;
+}
+
+
+

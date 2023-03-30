@@ -1,0 +1,44 @@
+.sliderss {
+  position: relative;
+  color: var(--brown-color);
+  width: 74%;
+  margin: auto;
+  padding-top: 75px;
+  padding-bottom: 135px;
+}
+
+.sliderss .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-subtitle);
+  font-size:xx-large;
+  flex-wrap: wrap;
+}
+
+.paraph p{
+  text-align:justify;
+  
+}
+
+.spiderweb1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: -10.5%;
+ 
+}
+
+.spiderweb2 {
+  position: absolute;
+  transform: translate(-50%, -60%);
+  right: -24.5%;
+}
+
+.spiderweb2 img, .spiderweb1 img{
+  width: 150px;
+}
+
+.button-container {
+  padding-top: 10px;
+  text-align: right;
+}

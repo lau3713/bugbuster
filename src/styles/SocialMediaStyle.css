@@ -1,0 +1,21 @@
+.media {
+  display: flex;
+  width: 78%;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.icon-contact{
+  
+  border-radius: 50%;
+  border: 4px solid var(--brown-color);
+  background-color: var(--brown-light-color);
+  padding: 20px 22px;
+}
+.icon-contact a svg {
+  fill: var(--green-color);
+}
+
+.icon-contact a svg:hover {
+  fill: var(--brown-color);
+}

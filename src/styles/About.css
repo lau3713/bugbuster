@@ -1,0 +1,25 @@
+.paragraphes-about{
+  position: relative;
+  padding: 70px 0;
+  font-size: larger;
+  width: 74%;
+  margin: auto;
+  text-align: center;
+}
+
+.paragraph2-about{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.spiderweb1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: -10.5%;
+ 
+}
+
+.button-about{
+  text-align: right;
+  padding: 30px;
+}
